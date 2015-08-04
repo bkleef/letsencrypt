@@ -36,7 +36,6 @@ install_requires = [
     'cryptography>=0.7',  # load_pem_x509_certificate
     'mock<1.1.0',  # py26
     'parsedatetime',
-    'psutil>=2.1.0',  # net_connections introduced in 2.1.0
     'PyOpenSSL',
     'pyrfc3339',
     'python2-pythondialog>=3.2.2rc1',  # Debian squeeze support, cf. #280
